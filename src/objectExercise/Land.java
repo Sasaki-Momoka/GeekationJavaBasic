@@ -2,13 +2,19 @@ package objectExercise;
 
 public class Land extends Property {
 
-	Land(String name, String human, String kinds, int price, int floor,double size) {
+	double size = 105.2;
 
-		super(name, human, kinds, price,floor,size);
+	public void size(int b) {
+		System.out.println("広さ" + b + "㎡");
+	}
+
+	Land(String name, String human, String kinds, int price) {
+		super(name, human, kinds, price);
 
 	}
 
 }
+
 	
 
 	
