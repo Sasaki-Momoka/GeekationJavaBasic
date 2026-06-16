@@ -17,17 +17,7 @@ public class Property {
 		this.human = human;
 		this.kinds = kinds;
 		this.price = price;
-		//		this.floor = floor;
-		//	this.size = size;
 	}
-
-	//	Property(int floor){
-	//		this.floor = floor;
-	//	}
-	//
-	//	Property(double size){
-	//		this.size = size;
-	//	}
 
 	//　共通項の出力 detail()元々
 	public void detail() {
@@ -36,27 +26,8 @@ public class Property {
 		System.out.println("物件所有者名：" + this.human);
 		System.out.println("物件種別：" + this.kinds);
 		System.out.println("物件価格：" + this.price + "円");
-
-		//System.out.println("間取り：" + this.floor + "LDK");
 	}
 
-	//		public void detailApa() {
-	//			System.out.println("間取り：" + this.floor + "LDK");
-	//			System.out.println("=============================");
-	//		}
-
-	//		public void detailLand() {
-	//				System.out.println("広さ：" + this.size + "㎡");
-	//				System.out.println("=============================");
-	//			}
-
-	//		public void land() {
-	//			System.out.println("物件名：" + this.name);
-	//			System.out.println("物件所有者名：" + this.human);
-	//			System.out.println("物件種別：" + this.kinds);
-	//			System.out.println("物件価格：" + this.price + "円");
-	//			//System.out.println("広さ：" + this.size + "㎡");
-	//		}
 
 	//　ゲッター、セッター
 	public String getName() {
@@ -108,4 +79,3 @@ public class Property {
 	}
 
 }
-
