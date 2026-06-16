@@ -3,10 +3,15 @@ package objectExercise;
 //Apartment
 public class Apartment extends Property {
 
-	int size = 3;
-	Apartment(int floor){
-		super(floor);
+	public void detailApa() {
+		System.out.println("間取り：" + this.floor + "LDK");
+		System.out.println("=============================");
 	}
+	
+	int floor = 3;
+//	Apartment(int floor){
+//		super(floor);
+//	}
 
 	//Apartmentの共通項の引数
 	Apartment(String name, String human, String kinds, int price) {

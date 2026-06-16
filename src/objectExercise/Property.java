@@ -17,19 +17,17 @@ public class Property {
 		this.human = human;
 		this.kinds = kinds;
 		this.price = price;
-	//	this.floor = floor;
+//		this.floor = floor;
 //	this.size = size;
 	}
-//	
-	Property(int floor){
-		this.floor = floor;
-	}
-	
-	
 
-	Property(double size){
-		this.size = size;
-	}
+//	Property(int floor){
+//		this.floor = floor;
+//	}
+//
+//	Property(double size){
+//		this.size = size;
+//	}
 
 
 	//　共通項の出力 detail()元々
@@ -43,15 +41,15 @@ public class Property {
 		//System.out.println("間取り：" + this.floor + "LDK");
 	}
 
-		public void detailApa() {
-			System.out.println("間取り：" + "3" + "LDK");
-			System.out.println("=============================");
-		}
+//		public void detailApa() {
+//			System.out.println("間取り：" + this.floor + "LDK");
+//			System.out.println("=============================");
+//		}
 		
-		public void detailLand() {
-				System.out.println("広さ：" + this.size + "㎡");
-				System.out.println("=============================");
-			}
+//		public void detailLand() {
+//				System.out.println("広さ：" + this.size + "㎡");
+//				System.out.println("=============================");
+//			}
 
 
 //		public void land() {
@@ -79,14 +77,14 @@ public class Property {
 	public int getPrice() {
 		return this.price;
 	}
-//
-//		  public int getFloor() {
-//				    return this.floor;
-//				    }
-//
-//		  public double getSize() {
-//			    return this.size;
-//			    }
+
+	  public int getFloor() {
+				    return this.floor;
+				    }
+
+		  public double getSize() {
+			    return this.size;
+			    }
 		  
 	public String setName() {
 		return this.name;
@@ -104,13 +102,13 @@ public class Property {
 		return this.price;
 	}
 	
-//	  public int setFloor() {
-//		    return this.floor;
-//		    }
-//	
-//	  public double setSize() {
-//		    return this.size;
-//		    }
+	  public int setFloor() {
+		    return this.floor;
+		    }
+	
+	  public double setSize() {
+		    return this.size;
+		    }
 
 }
 
