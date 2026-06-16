@@ -2,9 +2,12 @@ package objectExercise;
 
 public class Land extends Property {
 	public double size;
-//	double s;
-	//広さの値
 
+	//Landの共通項の引数　
+	Land(String name, String human, String kinds, int price, double size) {
+		super(name, human, kinds, price);
+		this.size = size;
+	}
 
 	//sizeのprintln
 	public void detailLand() {
@@ -12,13 +15,6 @@ public class Land extends Property {
 		System.out.println("=============================");
 	}
 
-	//Landの共通項の引数　
-	Land(String name, String human, String kinds, int price,double size) {
-		super(name, human, kinds, price);
-		this.size = size;
-	}
-
 }
-
 	
 
